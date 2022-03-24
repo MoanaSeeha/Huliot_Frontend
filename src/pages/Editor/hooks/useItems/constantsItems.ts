@@ -1,0 +1,95 @@
+import {
+  ACDrainIcon,
+  BathIcon,
+  BidetIcon,
+  GardenTapIcon,
+  KitchenSinkIcon,
+  RefrigeratorIcon,
+  ShowerSquareIcon,
+  SinkIcon,
+  ToiletIcon,
+  UrinalIcon,
+  WashingMachineIcon,
+} from '@/assets/icons/catalog'
+import {
+  acDrainIcon,
+  bathIcon,
+  bidetIcon,
+  gardenTapIcon,
+  kitchenSinkIcon,
+  refrigeratorIcon,
+  showerSquareIcon,
+  sinkIcon,
+  toiletIcon,
+  urinalIcon,
+  washingMachineIcon,
+} from '@components/SvgIconsMap'
+
+export const constantsItems = [
+  {
+    id: '07f2e764-ab98-4ef5-9bdf-136da6fbf07d',
+    icon: ShowerSquareIcon,
+    svgIcon: showerSquareIcon,
+    title: 'Shower',
+  },
+  {
+    id: '356e1119-2129-4a3a-9141-35b7bf3fe29f',
+    icon: SinkIcon,
+    svgIcon: sinkIcon,
+    title: 'Sink',
+  },
+  {
+    id: 'd80df76e-122f-4098-ad45-4e6755890d00',
+    icon: WashingMachineIcon,
+    svgIcon: washingMachineIcon,
+    title: 'Washing machine',
+  },
+  {
+    id: '16f0c476-09bf-4b26-9a72-e43d0fdcc5bf',
+    icon: BathIcon,
+    svgIcon: bathIcon,
+    title: 'Bath',
+  },
+  {
+    id: '61b81740-e4f0-46c6-a394-360ac09f5ab9',
+    icon: RefrigeratorIcon,
+    svgIcon: refrigeratorIcon,
+    title: 'Refrigerator',
+  },
+  {
+    id: '5d882312-0f81-4e18-8957-106567fd6bd0',
+    icon: GardenTapIcon,
+    svgIcon: gardenTapIcon,
+    title: 'Garden Tap',
+  },
+  {
+    id: 'da7d9918-a9dc-4596-8bf7-aa7680c33ebb',
+    icon: KitchenSinkIcon,
+    svgIcon: kitchenSinkIcon,
+    title: 'Kitchen Sink',
+  },
+  {
+    id: 'f265311b-8399-4b77-a6f3-6223cba6899a',
+    icon: ACDrainIcon,
+    svgIcon: acDrainIcon,
+    title: 'AC Drain',
+  },
+  {
+    id: 'd11e8c0c-6b07-4968-bc23-ea692c43b240',
+    icon: UrinalIcon,
+    svgIcon: urinalIcon,
+    title: 'Urinal',
+  },
+  {
+    id: '4b0030e2-3c69-4f66-a6c3-46cfa1efbade',
+    icon: BidetIcon,
+    svgIcon: bidetIcon,
+    title: 'Bidet',
+  },
+  {
+    id: '7ce494e2-21b2-4349-8ec3-7fea85dc8a35',
+    icon: ToiletIcon,
+    svgIcon: toiletIcon,
+    title: 'Toilet',
+  },
+]

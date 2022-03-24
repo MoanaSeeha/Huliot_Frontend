@@ -1,0 +1,6 @@
+export * from './DrawingToolsIcon'
+export * from './DrawingVerticalIcon'
+export * from './KitsIcon'
+export * from './PipeIcon'
+export * from './ShowerIcon'
+export * from './TrapIcon'

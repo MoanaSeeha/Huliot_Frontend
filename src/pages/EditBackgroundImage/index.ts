@@ -1,0 +1,1 @@
+export { EditBackgroundImage } from './EditBackgroundImage'
